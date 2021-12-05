@@ -1,0 +1,53 @@
+kernal version:
+uname -mr
+
+linux device driver header files packs install cmd(rasperry pi)
+sudo apt-get install raspberrypi-kernel-headers
+
+shutdown pi:
+sudo shutdown -h now
+
+create file:
+sudo nano filename
+
+remove file:
+sudo rm filename
+
+copy file:
+sudo cp filename des_path/filename 
+
+move file:
+sudo mv filename des_path
+
+list modules:
+lsmod
+
+create folder
+mkdir
+
+remove module:
+rmdir
+
+load module:
+sudo insmod module_name.ko
+
+unload module:
+sudo rmmod modulename.ko
+
+module information:
+modinfo modulename.ko
+
+run make/source files to gen module file :
+sudo make
+
+check message:
+dmesg  -->by using pr_info 
+
+view files:
+cat filename
+
+save file :
+ctrl+o  (write out)
+
+exit file:
+ctrl+x  (exit)
